@@ -54,7 +54,16 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius quam quisque id diam vel quam elementum pulvinar. Tempor commodo ullamcorper a lacus. Massa vitae tortor condimentum lacinia quis. Orci nulla pellentesque dignissim enim sit. Amet consectetur adipiscing elit duis tristique. Eget velit aliquet sagittis id consectetur. Enim facilisis gravida neque convallis a cras semper. Eu augue ut lectus arcu bibendum at. Aliquam sem fringilla ut morbi tincidunt augue interdum velit. Condimentum lacinia quis vel eros donec ac odio tempor. Erat imperdiet sed euismod nisi. Erat velit scelerisque in dictum.</p>
+                <p>
+                    We found a dataset on <a href="https://www.kaggle.com/datasets/andrewdecker/hitters-salary-adjusted-to-inflation">kaggle.com</a> of MLB position player statistics and salary data (adjusted for inflation) for 1985-2016.  
+                    The dataset comprises <b>15023 observations with 29 features</b> (4 ID features, 2 salary features, 4 fielding features, 19 offensive features).
+                    We focused on the adjusted salary as our dependent variable.
+                </p>
+                <p>
+                    After cleaning the dataset to remove some errant duplicates, we had <b>15014 observations, 25 independent variables, 1 dependent variable</b>.
+                    Based on a suggestion in a Moneyball-themed post on <a href="https://medium.com/towards-data-science/did-the-money-follow-the-ball-analyzing-the-importance-of-baseball-batting-statistics-pre-144d7d452e1f">Medium.com</a>, we transformed the adjusted salary into its natural logarithm, thereby making the histogram distribution look more like a normal, Gaussian distribution. 
+                    Correlation matrix analysis revealed that the offensive features were more highly correlated with our dependent variable than any of the other features in the dataset, so we focused our efforts there. GS (games started), BB (walks), RBI (runs batted in), R (runs scored), HR (home runs), and InnOuts (inning outs, a measure of game time played) were the highest-correlated with ADJ Salary.
+                </p>
             </div>
         </div>
     </div>
