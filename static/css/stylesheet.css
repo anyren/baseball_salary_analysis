@@ -9,8 +9,14 @@ h3{
 body {
     background-color: whitesmoke;
     font-family: Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
-
+}
+#map{
+    height: 100%;
+}
+body,
+html {
+  height: 100%;
+}
 .navbar-brand{
     color: white; 
     background-color: midnightblue;
