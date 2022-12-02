@@ -28,8 +28,9 @@
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">The Process</a>
             <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="data.html">Getting Acquainted with the Data</a></li>
-                <li><a class="dropdown-item" href="multivariate.html">Linear Regression</a></li>
+                <li><a class="dropdown-item" href="linear_1.html">Our First Linear Regression</a></li>
                 <li><a class="dropdown-item" href="categories.html">Binning and Categorization</a></li>
+                <li><a class="dropdown-item" href="linear_2.html">The Final Linear Regression</a></li>
             </ul>
         </li>
 
@@ -54,16 +55,28 @@
         </div>
         <div class="row">
             <div class="col-12">
+                <h3>Starting Process</h3>
+                <br>
                 <p>
                     We found a dataset on <a href="https://www.kaggle.com/datasets/andrewdecker/hitters-salary-adjusted-to-inflation">kaggle.com</a> of MLB position player statistics and salary data (adjusted for inflation) for 1985-2016.  
                     The dataset comprises <b>15023 observations with 29 features</b> (4 ID features, 2 salary features, 4 fielding features, 19 offensive features).
                     We focused on the adjusted salary as our dependent variable.
                     After cleaning the dataset to remove some errant duplicates, we had <b>15014 observations, 25 independent variables, 1 dependent variable</b>.
                 </p>
+                <br>
+                <h3>Making Assumptions</h3>
+                <br>
+                <p>
+                    This is where we will put a paragraph about removing some columns. Talk about removing the zero salary year, the trade years and the rookie years
+                </p>
+                <br>
+                <h3>Back to the Drawingboard</h3>
+                <br>
                 <p>
                     Based on a suggestion in a Moneyball-themed post on <a href="https://medium.com/towards-data-science/did-the-money-follow-the-ball-analyzing-the-importance-of-baseball-batting-statistics-pre-144d7d452e1f">Medium.com</a>, we transformed the adjusted salary into its natural logarithm, thereby making the histogram distribution look more like a normal, Gaussian distribution. 
                     Correlation matrix analysis revealed that the offensive features were more highly correlated with our dependent variable than any of the other features in the dataset, so we focused our efforts there. GS (games started), BB (walks), RBI (runs batted in), R (runs scored), HR (home runs), and InnOuts (inning outs, a measure of game time played) were the highest-correlated with ADJ Salary.
                 </p>
+                <h3>Here will go Bill's Correlation matrix</h3>
             </div>
         </div>
     </div>
