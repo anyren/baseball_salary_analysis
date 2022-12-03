@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Web Design Challenge</title>
+    <title>The Data</title>
     <!-- Set the viewport-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap stylesheet -->
@@ -37,7 +37,9 @@
         <li class="nav-item">
             <a class="nav-link" aria-current="page" href="results.html">The Results</a>
         </li>
-
+        <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="visualizations.html">Explore the Data</a>
+        </li>
         <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
         </li>
@@ -50,13 +52,13 @@
     <div class ="container">
         <div class="row top-buffer">
             <div class="text-center">
-                <h1>Getting Acquainted with the Data</h1>
+               <br><h1>Getting Acquainted with the Data</h1><br>
             </div>
         </div>
         <div class="row">
             <div class="col-12">
                 <h3>Starting Process</h3>
-                <br>
+                
                 <p>
                     We found a dataset on <a href="https://www.kaggle.com/datasets/andrewdecker/hitters-salary-adjusted-to-inflation">kaggle.com</a> of MLB position player statistics and salary data (adjusted for inflation) for 1985-2016.  
                     The dataset comprises <b>15023 observations with 29 features</b> (4 ID features, 2 salary features, 4 fielding features, 19 offensive features).
@@ -65,18 +67,45 @@
                 </p>
                 <br>
                 <h3>Making Assumptions</h3>
-                <br>
+                
                 <p>
-                    This is where we will put a paragraph about removing some columns. Talk about removing the zero salary year, the trade years and the rookie years
+                We had to assume that the creator of our Kaggle.com dataset applied the inflation adjustment correctly. 
+                We know that his original source for the data was a <a href="https://www.seanlahman.com/baseball-archive/statistics/" target="_blank">well-established baseball database created by Sean Lahman.</a> The dataset had some oddities which required decisions:
+                <ul>
+                    <li>There was a 0 salary (which made taking the logarithm problematic) and one low outlier at $ 19,522.  
+                        We deleted both rows!</li>
+                    <li>8 duplicate rows were deleted</li>
+                </ul>
+                As we read more online analyses of baseball data, we learned about some complicating factors concerning MLB salary rules:
+                <ol>
+                    <li>Rookies (0-3 years service in league) do not have any negotiating power when it comes to salaries.  There is a minimum salary in the MLB, so rookies will get at LEAST this amount, but may get more depending on the team they sign with.</li>
+                    <li>Beyond rookie, not yet a free agent (3-6 years of service in league) are eligible for salary arbitration if they believe their contract is underpriced.</li>
+                    <li>Free agents (>6 years service in league) can choose any contract offer tendered (e.g., from the highest bidding club).</li>
+                </ol>
+                The rookie take-it-or-leave-it, unnegotiated “base salary” fact caused a wrinkle in our initial data analysis … 
+                How can we predict salary based on offensive stats if the salary doesn't go up or down appreciably based on performance in those rookie years? </p>
+                <p>
+                We decided to filter out every player's first 3 career years from the dataset to address this issue.
+                When we aggregated the data in our improved linear regression the issue became moot, since we took the mean of all career year stats for every player. 
+                The salary range caused an issue as well … at the low end (after outlier removal) salary started at $136,734. At the high end, $39,810,209! 
+                </p>
+                <p>
+                Of course when we plotted the histogram of salaries it was very “left-skewed” with a long rightward tail.
+                Based on a suggestion in a Moneyball-themed post on <a href="https://medium.com/towards-data-science/did-the-money-follow-the-ball-analyzing-the-importance-of-baseball-batting-statistics-pre-144d7d452e1f">Medium.com</a>, we transformed the adjusted salary into its natural logarithm, thereby making the histogram distribution look more like a normal, Gaussian distribution. 
                 </p>
                 <br>
                 <h3>Back to the Drawingboard</h3>
-                <br>
                 <p>
-                    Based on a suggestion in a Moneyball-themed post on <a href="https://medium.com/towards-data-science/did-the-money-follow-the-ball-analyzing-the-importance-of-baseball-batting-statistics-pre-144d7d452e1f">Medium.com</a>, we transformed the adjusted salary into its natural logarithm, thereby making the histogram distribution look more like a normal, Gaussian distribution. 
                     Correlation matrix analysis revealed that the offensive features were more highly correlated with our dependent variable than any of the other features in the dataset, so we focused our efforts there. GS (games started), BB (walks), RBI (runs batted in), R (runs scored), HR (home runs), and InnOuts (inning outs, a measure of game time played) were the highest-correlated with ADJ Salary.
                 </p>
-                <h3>Here will go Bill's Correlation matrix</h3>
+                <!-- <img src="../static/images/df_correlation_matrix.png"> --><br>
+                Oh no, we have a LOT of collinearity here in our independent variables!<br>
+                <!-- <img src="../static/images/df_pairplot.png"> --><br>
+                Ok, despite all of the collinearity we need to pick a subset of these independent variables, but which ones???
+                We picked the top 6 based on highest correlation with our target (ADJ Salary): <b>GS, BB, RBI, R, HR, InnOuts</b>.<br>
+                <!-- <img src="../static/images/best_vars_correlation_matrix.png"> --><br>
+                We looked at scatter plots of each of these variables against ADJ Salary. Nothing but a Jackson Pollock-like spray of dots … no linear relationships here, unfortunately.<br>
+
             </div>
         </div>
     </div>

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Web Design Challenge</title>
+    <title>Linear Regression 2</title>
     <!-- Set the viewport-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap stylesheet -->
@@ -37,7 +37,9 @@
         <li class="nav-item">
             <a class="nav-link" aria-current="page" href="results.html">The Results</a>
         </li>
-
+        <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="visualizations.html">Explore the Data</a>
+        </li>
         <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
         </li>
@@ -55,7 +57,33 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius quam quisque id diam vel quam elementum pulvinar. Tempor commodo ullamcorper a lacus. Massa vitae tortor condimentum lacinia quis. Orci nulla pellentesque dignissim enim sit. Amet consectetur adipiscing elit duis tristique. Eget velit aliquet sagittis id consectetur. Enim facilisis gravida neque convallis a cras semper. Eu augue ut lectus arcu bibendum at. Aliquam sem fringilla ut morbi tincidunt augue interdum velit. Condimentum lacinia quis vel eros donec ac odio tempor. Erat imperdiet sed euismod nisi. Erat velit scelerisque in dictum.</p>
+               <h3>A New Idea</h3> 
+               <p>
+                What if we aggregated all of the data by player, then took the mean of all stats (including salary)? Would this be a better approach?<br>
+                In effect, we would be looking at a players' stats and salaries over the entire time frame (1985-2016), via the averages of each relevant variable.<br>
+                NB: In subsequent discussions with Dom about this approach, he said it is called “Relative Strength Analysis” and is a commonly used strategy in data problems!
+            </p>
+            <p>
+                Once we aggregate the original dataset, we are down to 2468 observations.<br>
+                But now we need to run the whole correlation matrix and feature selection business again …<br>
+                <!-- <img src="../static/images/agg_df_correlation_matrix.png"> --><br>
+                Good news: several of the independent variables are showing higher correlation with the target variable!<br>
+                Bad news: these features of interest are also highly correlated with each other… Hence, we land on: RBI, R, twoB (doubles)
+            </p>
+            <p>
+                Scatterplots of these features show a clear linear relationship with ADJ Salary and simple linear regressions between each feature and the target achieve r2 of up to .56!
+                This all looks promising!
+            </p>
+            <p>
+                Now let's try that multivariate linear regression again, this time with RBI, R, twoB and see what the regressors can do.<br>
+                GradientBoosterRegressor (GBR) achieved a .59 r2 on the test data! We can explain nearly 60% of the variance.  
+                (Quite a bit improved over our first attempt at multivariate linear regression … we could only explain ~ 26% of the variance.)
+                The others weren't too far behind.
+                <img src="../static/images/LR2_stats_summary.png">
+            </p>
+            <p>
+                Just for good measure, let's tinker with a few ensemble methods to see if we can improve upon these results. We tried Ridge and ElasticNet regressors with SelectFromModel, but could not improve upon the GBR result.
+            </p>
             </div>
         </div>
     </div>

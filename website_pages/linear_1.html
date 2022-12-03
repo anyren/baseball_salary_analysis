@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Web Design Challenge</title>
+    <title>Linear Regression 1</title>
     <!-- Set the viewport-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap stylesheet -->
@@ -37,7 +37,9 @@
         <li class="nav-item">
             <a class="nav-link" aria-current="page" href="results.html">The Results</a>
         </li>
-
+        <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="visualizations.html">Explore the Data</a>
+        </li>
         <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
         </li>
@@ -55,12 +57,28 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <br>
-                <p>
-                    We started by using our dataset we made based on our assumptions (no rookies, no trades). We also used a correlation matrix to find what we thought were the top 10 features. We rearaged our dataframe with only these features 
-                    and ran a multivarite linear regression only to find that our scores was very low. After talking with Dom and TA Colin we decied to try a different style model.
-                </p>
-                <h3>Bill will find a visual that will go here</h3>
+            <br>
+                
+            <h3>First, Linear Regression of Each Independent Variable vs. ADJ Salary</h3>
+            <p> 
+            We ran each individual variable of interest through several regressor algorithms - LinearRegression(), GradientBoostingRegressor(), RandomForestRegressor(), smf.ols()- 
+            to get some benchmark scores.<br>
+            No surprises … no variable achieved r2 higher than .17
+            <ul>
+                <li>
+                    We are not explaining much variance in our target.
+                </li>
+                <li>
+                    Our salary predictions on these models won't be very good.
+                </li>
+            </ul>
+            <h3>Next, Attempt a Multivariate Linear Regression with All of the Independent Variables</h3>
+            No dice … explained variance around .20. At this point we were getting discouraged … maybe predicting salary from offensive performance stats isn't really possible.<br>
+            So we sought advice from Dom and the TAs. TA Colin suggested that we attempt binning the ADJ Salary target and then turn the problem into a classification problem, which opens the door to a whole slew of different machine learning algorithms to use!<br>
+            We can do better!
+            </p>
+            
+            <h3>Bill will find a visual that will go here</h3>
             </div>
         </div>
     </div>
