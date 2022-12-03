@@ -1,6 +1,6 @@
 
 let myMap = L.map("map", {
-    center: [38, -98],
+    center: [44.967243, -103.771556],
     zoom: 4
   });
   
@@ -54,10 +54,9 @@ function createFeatures(data){
         feature = data[i];
         teams = feature.properties.Teams;
         for(t=0;t<teams.length;t++){
-            color = markerColor(feature.properties.Teams[t].AVGSalary);
+            color = markerColor(feature.properties.Teams[t].AVGSalaryGroup);
             league=feature.properties.Teams[t].League
             if(league=="Major League Baseball"){
-                salary = new Intl.NumberFormat('en', { style: 'currency', currency: 'USD' }).format(feature.properties.Teams[t].AVGSalary);
                 L.circle(
                     [feature.geometry.coordinates[1],feature.geometry.coordinates[0]], 
                 {
@@ -68,8 +67,10 @@ function createFeatures(data){
                 radius: markerRadius(feature.properties.Teams[t].AVGSalary),
                 }
             
-                ).bindPopup("<strong>" + feature.properties.Teams[t].Team + "</strong><br>" +  feature.properties.Ballpark +
-                "<hr />" + "Average Player Salary: " + salary
+                ).bindPopup("<strong>" + feature.properties.Teams[t].Team + "</strong><br>" + 
+                "<hr />" + 
+                feature.properties.Ballpark + 
+                "<hr />" + "$" + feature.properties.Teams[t].AVGSalary
                 ).addTo(myMap); 
                 
             }
@@ -78,25 +79,26 @@ function createFeatures(data){
 };
 
 function markerColor(sg){
-
+    console.log(sg);
     let colorList=[
-        '#ffee58',
-        '#f2b705',
-        '#ff6600',
-        '#2e7d32'
-    ];
+        '#fcef56',
+        '#edaa53',
+        '#d6c84b',
+        '#32a852',
 
-    if(sg>5000000){
-        color=colorList[3]
+    ];
+    if (sg>6000000){
+        color=colorList[0]
     }
     else if(sg>=4000000){
-        color=colorList[2]
-    }
-    else if(sg>=3000000){
         color=colorList[1]
     }
+    
+    else if(sg>=2000000){
+        color=colorList[2]
+    }
     else {
-        color=colorList[0]
+        color=colorList[3]
     
     }
     // color='#32a852';
@@ -116,13 +118,13 @@ var legend = L.control({position: 'bottomright'});
 legend.onAdd = function (map) {
     // colors
     var div = L.DomUtil.create('div', 'info legend'),
-        dollars = ['<$3M ','$3-4M', '$4-5M','>=$5M'],
+        dollars = ['<$2M ', '$2-4M', '$4-6M', '>=$6M'],
         labels = [];
         colorList = [
-            '#ffee58',
-            '#f2b705',
-            '#ff6600',
-            '#2e7d32'
+            '#fcef56',
+            '#edaa53',
+            '#d6c84b',
+            '#32a852',
         ];
 
     // legend

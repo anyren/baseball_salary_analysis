@@ -18,7 +18,7 @@
                         "Team": "Arizona Diamondbacks",
                         "Class": "Majors",
                         "League": "Major League Baseball",
-                        "AVGSalaryGroup": 2.0
+                        "AVGSalary": 3506956.67
                     }
                 ]
             }
@@ -39,7 +39,7 @@
                         "Team": "Atlanta Braves",
                         "Class": "Majors",
                         "League": "Major League Baseball",
-                        "AVGSalaryGroup": 2.0
+                        "AVGSalary": 3517603.32
                     }
                 ]
             }
@@ -60,7 +60,7 @@
                         "Team": "Baltimore Orioles",
                         "Class": "Majors",
                         "League": "Major League Baseball",
-                        "AVGSalaryGroup": 2.0
+                        "AVGSalary": 3886166.46
                     }
                 ]
             }
@@ -81,7 +81,7 @@
                         "Team": "Boston Red Sox",
                         "Class": "Majors",
                         "League": "Major League Baseball",
-                        "AVGSalaryGroup": 3.0
+                        "AVGSalary": 4934502.05
                     }
                 ]
             }
@@ -102,7 +102,7 @@
                         "Team": "Chicago Cubs",
                         "Class": "Majors",
                         "League": "Major League Baseball",
-                        "AVGSalaryGroup": 2.0
+                        "AVGSalary": 3909891.36
                     }
                 ]
             }
@@ -123,7 +123,7 @@
                         "Team": "Chicago White Sox",
                         "Class": "Majors",
                         "League": "Major League Baseball",
-                        "AVGSalaryGroup": 2.0
+                        "AVGSalary": 3562374.15
                     }
                 ]
             }
@@ -144,7 +144,7 @@
                         "Team": "Cincinnati Reds",
                         "Class": "Majors",
                         "League": "Major League Baseball",
-                        "AVGSalaryGroup": 2.0
+                        "AVGSalary": 2833785.0
                     }
                 ]
             }
@@ -165,7 +165,7 @@
                         "Team": "Cleveland Guardians",
                         "Class": "Majors",
                         "League": "Major League Baseball",
-                        "AVGSalaryGroup": 2.0
+                        "AVGSalary": 2593029.63
                     }
                 ]
             }
@@ -186,7 +186,7 @@
                         "Team": "Colorado Rockies",
                         "Class": "Majors",
                         "League": "Major League Baseball",
-                        "AVGSalaryGroup": 2.0
+                        "AVGSalary": 3728773.36
                     }
                 ]
             }
@@ -207,7 +207,7 @@
                         "Team": "Detroit Tigers",
                         "Class": "Majors",
                         "League": "Major League Baseball",
-                        "AVGSalaryGroup": 3.0
+                        "AVGSalary": 4234130.44
                     }
                 ]
             }
@@ -228,7 +228,7 @@
                         "Team": "Houston Astros",
                         "Class": "Majors",
                         "League": "Major League Baseball",
-                        "AVGSalaryGroup": 2.0
+                        "AVGSalary": 2978505.33
                     }
                 ]
             }
@@ -249,7 +249,7 @@
                         "Team": "Miami Marlins",
                         "Class": "Majors",
                         "League": "Major League Baseball",
-                        "AVGSalaryGroup": 2.0
+                        "AVGSalary": 2039602.9
                     }
                 ]
             }
@@ -270,7 +270,7 @@
                         "Team": "Kansas City Royals",
                         "Class": "Majors",
                         "League": "Major League Baseball",
-                        "AVGSalaryGroup": 2.0
+                        "AVGSalary": 2464493.04
                     }
                 ]
             }
@@ -291,7 +291,7 @@
                         "Team": "Los Angeles Angels",
                         "Class": "Majors",
                         "League": "Major League Baseball",
-                        "AVGSalaryGroup": 2.0
+                        "AVGSalary": 3561530.33
                     }
                 ]
             }
@@ -312,7 +312,7 @@
                         "Team": "Los Angeles Dodgers",
                         "Class": "Majors",
                         "League": "Major League Baseball",
-                        "AVGSalaryGroup": 3.0
+                        "AVGSalary": 4087126.7
                     }
                 ]
             }
@@ -333,7 +333,7 @@
                         "Team": "Milwaukee Brewers",
                         "Class": "Majors",
                         "League": "Major League Baseball",
-                        "AVGSalaryGroup": 2.0
+                        "AVGSalary": 2480614.26
                     }
                 ]
             }
@@ -354,7 +354,7 @@
                         "Team": "Minnesota Twins",
                         "Class": "Majors",
                         "League": "Major League Baseball",
-                        "AVGSalaryGroup": 2.0
+                        "AVGSalary": 2718999.78
                     }
                 ]
             }
@@ -375,7 +375,7 @@
                         "Team": "New York Mets",
                         "Class": "Majors",
                         "League": "Major League Baseball",
-                        "AVGSalaryGroup": 3.0
+                        "AVGSalary": 4132379.23
                     }
                 ]
             }
@@ -396,7 +396,7 @@
                         "Team": "New York Yankees",
                         "Class": "Majors",
                         "League": "Major League Baseball",
-                        "AVGSalaryGroup": 4.0
+                        "AVGSalary": 7005064.63
                     }
                 ]
             }
@@ -417,7 +417,7 @@
                         "Team": "Oakland Athletics",
                         "Class": "Majors",
                         "League": "Major League Baseball",
-                        "AVGSalaryGroup": 2.0
+                        "AVGSalary": 2411201.34
                     }
                 ]
             }
@@ -438,7 +438,7 @@
                         "Team": "Philadelphia Phillies",
                         "Class": "Majors",
                         "League": "Major League Baseball",
-                        "AVGSalaryGroup": 2.0
+                        "AVGSalary": 3455915.63
                     }
                 ]
             }
@@ -458,7 +458,8 @@
                     {
                         "Team": "Pittsburg Pirates",
                         "Class": "Majors",
-                        "League": "Major League Baseball"
+                        "League": "Major League Baseball",
+                        "AVGSalary": 2063752.59
                     }
                 ]
             }
@@ -478,7 +479,8 @@
                     {
                         "Team": "San Diego Padres",
                         "Class": "Majors",
-                        "League": "Major League Baseball"
+                        "League": "Major League Baseball",
+                        "AVGSalary": 2421190.48
                     }
                 ]
             }
@@ -498,7 +500,8 @@
                     {
                         "Team": "San Francisco Giants",
                         "Class": "Majors",
-                        "League": "Major League Baseball"
+                        "League": "Major League Baseball",
+                        "AVGSalary": 3908309.32
                     }
                 ]
             }
@@ -518,7 +521,8 @@
                     {
                         "Team": "Seattle Mariners",
                         "Class": "Majors",
-                        "League": "Major League Baseball"
+                        "League": "Major League Baseball",
+                        "AVGSalary": 3777283.0
                     }
                 ]
             }
@@ -538,7 +542,8 @@
                     {
                         "Team": "St. Louis Cardinals",
                         "Class": "Majors",
-                        "League": "Major League Baseball"
+                        "League": "Major League Baseball",
+                        "AVGSalary": 3637482.55
                     }
                 ]
             }
@@ -558,7 +563,8 @@
                     {
                         "Team": "Tampa Bay Rays",
                         "Class": "Majors",
-                        "League": "Major League Baseball"
+                        "League": "Major League Baseball",
+                        "AVGSalary": 2730955.86
                     }
                 ]
             }
@@ -578,7 +584,8 @@
                     {
                         "Team": "Texas Rangers",
                         "Class": "Majors",
-                        "League": "Major League Baseball"
+                        "League": "Major League Baseball",
+                        "AVGSalary": 3987162.69
                     }
                 ]
             }
@@ -598,7 +605,8 @@
                     {
                         "Team": "Toronto Blue Jays",
                         "Class": "Majors",
-                        "League": "Major League Baseball"
+                        "League": "Major League Baseball",
+                        "AVGSalary": 3200101.49
                     }
                 ]
             }
@@ -618,7 +626,8 @@
                     {
                         "Team": "Washington Nationals",
                         "Class": "Majors",
-                        "League": "Major League Baseball"
+                        "League": "Major League Baseball",
+                        "AVGSalary": 4566587.14
                     }
                 ]
             }
@@ -638,7 +647,8 @@
                     {
                         "Team": "Arizona Diamondbacks",
                         "Class": "Spring Training",
-                        "League": "Cactus"
+                        "League": "Cactus",
+                        "AVGSalary": 3506956.67
                     },
                     {
                         "Team": "Colorado Rockies",
@@ -673,7 +683,8 @@
                     {
                         "Team": "Chicago Cubs",
                         "Class": "Spring Training",
-                        "League": "Cactus"
+                        "League": "Cactus",
+                        "AVGSalary": 3909891.36
                     },
                     {
                         "Team": "Mesa Solar Sox",
@@ -708,7 +719,8 @@
                     {
                         "Team": "Chicago White Sox",
                         "Class": "Spring Training",
-                        "League": "Cactus"
+                        "League": "Cactus",
+                        "AVGSalary": 3562374.15
                     },
                     {
                         "Team": "Los Angeles Dodgers",
@@ -753,7 +765,8 @@
                     {
                         "Team": "Cleveland Indians",
                         "Class": "Spring Training",
-                        "League": "Cactus"
+                        "League": "Cactus",
+                        "AVGSalary": null
                     },
                     {
                         "Team": "Cincinnati Reds",
@@ -793,7 +806,8 @@
                     {
                         "Team": "Kansas City Royals",
                         "Class": "Spring Training",
-                        "League": "Cactus"
+                        "League": "Cactus",
+                        "AVGSalary": 2464493.04
                     },
                     {
                         "Team": "Texas Rangers",
@@ -833,7 +847,8 @@
                     {
                         "Team": "Los Angeles Angels",
                         "Class": "Spring Training",
-                        "League": "Cactus"
+                        "League": "Cactus",
+                        "AVGSalary": 3561530.33
                     },
                     {
                         "Team": "Arizona League Angels",
@@ -858,7 +873,8 @@
                     {
                         "Team": "Milwaukee Brewers",
                         "Class": "Spring Training",
-                        "League": "Cactus"
+                        "League": "Cactus",
+                        "AVGSalary": 2480614.26
                     },
                     {
                         "Team": "Arizona League Brewers Gold",
@@ -888,7 +904,8 @@
                     {
                         "Team": "Oakland A's",
                         "Class": "Spring Training",
-                        "League": "Cactus"
+                        "League": "Cactus",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -908,7 +925,8 @@
                     {
                         "Team": "San Diego Padres",
                         "Class": "Spring Training",
-                        "League": "Cactus"
+                        "League": "Cactus",
+                        "AVGSalary": 2421190.48
                     },
                     {
                         "Team": "Seattle Mariners",
@@ -958,7 +976,8 @@
                     {
                         "Team": "San Francisco Giants",
                         "Class": "Spring Training",
-                        "League": "Cactus"
+                        "League": "Cactus",
+                        "AVGSalary": 3908309.32
                     },
                     {
                         "Team": "Scottsdale Scorpions",
@@ -993,7 +1012,8 @@
                     {
                         "Team": "Arizona League Athletics Gold",
                         "Class": "Rookie",
-                        "League": "Arizona League"
+                        "League": "Arizona League",
+                        "AVGSalary": null
                     },
                     {
                         "Team": "Arizona League Athletics Green",
@@ -1018,7 +1038,8 @@
                     {
                         "Team": "Atlanta Braves",
                         "Class": "Spring Training",
-                        "League": "Grapefruit"
+                        "League": "Grapefruit",
+                        "AVGSalary": 3517603.32
                     },
                     {
                         "Team": "Florida Complex League Braves",
@@ -1043,7 +1064,8 @@
                     {
                         "Team": "Baltimore Orioles",
                         "Class": "Spring Training",
-                        "League": "Grapefruit"
+                        "League": "Grapefruit",
+                        "AVGSalary": 3886166.46
                     },
                     {
                         "Team": "Florida Complex League Orioles",
@@ -1068,7 +1090,8 @@
                     {
                         "Team": "Boston Red Sox",
                         "Class": "Spring Training",
-                        "League": "Grapefruit"
+                        "League": "Grapefruit",
+                        "AVGSalary": 4934502.05
                     },
                     {
                         "Team": "Florida Complex League Red Sox",
@@ -1093,7 +1116,8 @@
                     {
                         "Team": "Detroit Tigers",
                         "Class": "Spring Training",
-                        "League": "Grapefruit"
+                        "League": "Grapefruit",
+                        "AVGSalary": 4234130.44
                     },
                     {
                         "Team": "Lakeland Flying Tigers",
@@ -1128,7 +1152,8 @@
                     {
                         "Team": "Houston Astros",
                         "Class": "Spring Training",
-                        "League": "Grapefruit"
+                        "League": "Grapefruit",
+                        "AVGSalary": 2978505.33
                     },
                     {
                         "Team": "Washington Nationals",
@@ -1163,7 +1188,8 @@
                     {
                         "Team": "St. Louis Cardinals",
                         "Class": "Spring Training",
-                        "League": "Grapefruit"
+                        "League": "Grapefruit",
+                        "AVGSalary": 3637482.55
                     },
                     {
                         "Team": "Miami Marlins",
@@ -1208,7 +1234,8 @@
                     {
                         "Team": "Minnesota Twins",
                         "Class": "Spring Training",
-                        "League": "Grapefruit"
+                        "League": "Grapefruit",
+                        "AVGSalary": 2718999.78
                     },
                     {
                         "Team": "Fort Myers Might Mussels",
@@ -1238,7 +1265,8 @@
                     {
                         "Team": "New York Mets",
                         "Class": "Spring Training",
-                        "League": "Grapefruit"
+                        "League": "Grapefruit",
+                        "AVGSalary": 4132379.23
                     },
                     {
                         "Team": "St. Lucie Mets",
@@ -1268,7 +1296,8 @@
                     {
                         "Team": "New York Yankees",
                         "Class": "Spring Training",
-                        "League": "Grapefruit"
+                        "League": "Grapefruit",
+                        "AVGSalary": 7005064.63
                     },
                     {
                         "Team": "Tampa Tarpons",
@@ -1303,7 +1332,8 @@
                     {
                         "Team": "Philadelphia Phillies",
                         "Class": "Spring Training",
-                        "League": "Grapefruit"
+                        "League": "Grapefruit",
+                        "AVGSalary": 3455915.63
                     },
                     {
                         "Team": "Clearwater Threshers",
@@ -1328,7 +1358,8 @@
                     {
                         "Team": "Pittsburg Pirates",
                         "Class": "Spring Training",
-                        "League": "Grapefruit"
+                        "League": "Grapefruit",
+                        "AVGSalary": 2063752.59
                     },
                     {
                         "Team": "Bradenton Marauders",
@@ -1358,7 +1389,8 @@
                     {
                         "Team": "Tampa Bay Rays",
                         "Class": "Spring Training",
-                        "League": "Grapefruit"
+                        "League": "Grapefruit",
+                        "AVGSalary": 2730955.86
                     },
                     {
                         "Team": "Florida Complex League Rays",
@@ -1383,7 +1415,8 @@
                     {
                         "Team": "Toronto Blue Jays",
                         "Class": "Spring Training",
-                        "League": "Grapefruit"
+                        "League": "Grapefruit",
+                        "AVGSalary": 3200101.49
                     },
                     {
                         "Team": "Dunedin Blue Jays",
@@ -1408,7 +1441,8 @@
                     {
                         "Team": "Florida Complex League Phillies East",
                         "Class": "Rookie",
-                        "League": "Gulf Coast"
+                        "League": "Gulf Coast",
+                        "AVGSalary": null
                     },
                     {
                         "Team": "Florida Complex League Phillies West",
@@ -1433,7 +1467,8 @@
                     {
                         "Team": "Daytona Tortugas",
                         "Class": "Low-A",
-                        "League": "Low-A Southeast"
+                        "League": "Low-A Southeast",
+                        "AVGSalary": null
                     },
                     {
                         "Team": "Bethune–Cookman Wildcats",
@@ -1458,7 +1493,8 @@
                     {
                         "Team": "Florida Complex League Blue Jays",
                         "Class": "Rookie",
-                        "League": "Gulf Coast"
+                        "League": "Gulf Coast",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -1478,7 +1514,8 @@
                     {
                         "Team": "Albuquerque Isotopes",
                         "Class": "Triple-A",
-                        "League": "Pacific Coast League"
+                        "League": "Pacific Coast League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -1498,7 +1535,8 @@
                     {
                         "Team": "El Paso Chihuahuas",
                         "Class": "Triple-A",
-                        "League": "Pacific Coast League"
+                        "League": "Pacific Coast League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -1518,7 +1556,8 @@
                     {
                         "Team": "Oklahoma City Dodgers",
                         "Class": "Triple-A",
-                        "League": "Pacific Coast League"
+                        "League": "Pacific Coast League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -1538,7 +1577,8 @@
                     {
                         "Team": "Round Rock Express",
                         "Class": "Triple-A",
-                        "League": "Pacific Coast League"
+                        "League": "Pacific Coast League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -1558,7 +1598,8 @@
                     {
                         "Team": "Sugar Land Skeeters",
                         "Class": "Triple-A",
-                        "League": "Pacific Coast League"
+                        "League": "Pacific Coast League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -1578,7 +1619,8 @@
                     {
                         "Team": "Las Vegas Aviators",
                         "Class": "Triple-A",
-                        "League": "Pacific Coast League"
+                        "League": "Pacific Coast League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -1598,7 +1640,8 @@
                     {
                         "Team": "Reno Aces",
                         "Class": "Triple-A",
-                        "League": "Pacific Coast League"
+                        "League": "Pacific Coast League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -1618,7 +1661,8 @@
                     {
                         "Team": "Sacramento River Cats",
                         "Class": "Triple-A",
-                        "League": "Pacific Coast League"
+                        "League": "Pacific Coast League",
+                        "AVGSalary": null
                     },
                     {
                         "Team": "Sacramento State Hornets",
@@ -1643,7 +1687,8 @@
                     {
                         "Team": "Salt Lake Bees",
                         "Class": "Triple-A",
-                        "League": "Pacific Coast League"
+                        "League": "Pacific Coast League",
+                        "AVGSalary": null
                     },
                     {
                         "Team": "Utah Utes",
@@ -1668,7 +1713,8 @@
                     {
                         "Team": "Tacoma Rainiers",
                         "Class": "Triple-A",
-                        "League": "Pacific Coast League"
+                        "League": "Pacific Coast League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -1688,7 +1734,8 @@
                     {
                         "Team": "Columbus Clippers",
                         "Class": "Triple-A",
-                        "League": "International League"
+                        "League": "International League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -1708,7 +1755,8 @@
                     {
                         "Team": "Indianapolis Indians",
                         "Class": "Triple-A",
-                        "League": "International League"
+                        "League": "International League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -1728,7 +1776,8 @@
                     {
                         "Team": "Iowa Cubs",
                         "Class": "Triple-A",
-                        "League": "International League"
+                        "League": "International League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -1748,7 +1797,8 @@
                     {
                         "Team": "Louisville Bats",
                         "Class": "Triple-A",
-                        "League": "International League"
+                        "League": "International League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -1768,7 +1818,8 @@
                     {
                         "Team": "Omaha Storm Chasers",
                         "Class": "Triple-A",
-                        "League": "International League"
+                        "League": "International League",
+                        "AVGSalary": null
                     },
                     {
                         "Team": "Omaha Mavericks",
@@ -1793,7 +1844,8 @@
                     {
                         "Team": "St. Paul Saints",
                         "Class": "Triple-A",
-                        "League": "International League"
+                        "League": "International League",
+                        "AVGSalary": null
                     },
                     {
                         "Team": "Hamine University",
@@ -1818,7 +1870,8 @@
                     {
                         "Team": "Toledo Mud Hens",
                         "Class": "Triple-A",
-                        "League": "International League"
+                        "League": "International League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -1838,12 +1891,14 @@
                     {
                         "Team": "Buffalo Bisons",
                         "Class": "Triple-A",
-                        "League": "International League"
+                        "League": "International League",
+                        "AVGSalary": null
                     },
                     {
                         "Team": "Toronto Blue Jays",
                         "Class": "Majors",
-                        "League": "Major League Baseball"
+                        "League": "Major League Baseball",
+                        "AVGSalary": 3200101.49
                     }
                 ]
             }
@@ -1863,7 +1918,8 @@
                     {
                         "Team": "Trenton Thunder",
                         "Class": "Collegiate Summer Baseball",
-                        "League": "MLB Draft League"
+                        "League": "MLB Draft League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -1883,7 +1939,8 @@
                     {
                         "Team": "Lehigh Valley IronPigs",
                         "Class": "Triple-A",
-                        "League": "International League"
+                        "League": "International League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -1903,7 +1960,8 @@
                     {
                         "Team": "Rochester Red Wings",
                         "Class": "Triple-A",
-                        "League": "International League"
+                        "League": "International League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -1923,7 +1981,8 @@
                     {
                         "Team": "Scranton/Wilkes-Barre RailRiders",
                         "Class": "Triple-A",
-                        "League": "International League"
+                        "League": "International League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -1943,7 +2002,8 @@
                     {
                         "Team": "Syracuse Mets",
                         "Class": "Triple-A",
-                        "League": "International League"
+                        "League": "International League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -1963,7 +2023,8 @@
                     {
                         "Team": "Worcester Red Sox",
                         "Class": "Triple-A",
-                        "League": "International League"
+                        "League": "International League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -1983,7 +2044,8 @@
                     {
                         "Team": "Charlotte Knights",
                         "Class": "Triple-A",
-                        "League": "International League"
+                        "League": "International League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2003,7 +2065,8 @@
                     {
                         "Team": "Durham Bulls",
                         "Class": "Triple-A",
-                        "League": "International League"
+                        "League": "International League",
+                        "AVGSalary": null
                     },
                     {
                         "Team": "Duke Blue Devilr",
@@ -2028,7 +2091,8 @@
                     {
                         "Team": "Gwinnett Stripers",
                         "Class": "Triple-A",
-                        "League": "International League"
+                        "League": "International League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2048,7 +2112,8 @@
                     {
                         "Team": "Jacksonville Jumbo Shrimp",
                         "Class": "Triple-A",
-                        "League": "International League"
+                        "League": "International League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2068,7 +2133,8 @@
                     {
                         "Team": "Memphis Redbirds",
                         "Class": "Triple-A",
-                        "League": "International League"
+                        "League": "International League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2088,7 +2154,8 @@
                     {
                         "Team": "Nashville Sounds",
                         "Class": "Triple-A",
-                        "League": "International League"
+                        "League": "International League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2108,7 +2175,8 @@
                     {
                         "Team": "Norfolk Tides",
                         "Class": "Triple-A",
-                        "League": "International League"
+                        "League": "International League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2128,7 +2196,8 @@
                     {
                         "Team": "Sultanes de Monterrey",
                         "Class": "Independent",
-                        "League": "Mexican League"
+                        "League": "Mexican League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2148,7 +2217,8 @@
                     {
                         "Team": "Bravos de Leon",
                         "Class": "Independent",
-                        "League": "Mexican League"
+                        "League": "Mexican League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2168,7 +2238,8 @@
                     {
                         "Team": "Generales de Durango",
                         "Class": "Independent",
-                        "League": "Mexican League"
+                        "League": "Mexican League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2188,7 +2259,8 @@
                     {
                         "Team": "Tecolotes de los Dos Laredos",
                         "Class": "Independent",
-                        "League": "Mexican League"
+                        "League": "Mexican League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2208,7 +2280,8 @@
                     {
                         "Team": "Tecolotes de los Dos Laredos",
                         "Class": "Independent",
-                        "League": "Mexican League"
+                        "League": "Mexican League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2228,7 +2301,8 @@
                     {
                         "Team": "Acereros de Monclova",
                         "Class": "Independent",
-                        "League": "Mexican League"
+                        "League": "Mexican League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2248,7 +2322,8 @@
                     {
                         "Team": "Algodoneros de Unión Laguna",
                         "Class": "Independent",
-                        "League": "Mexican League"
+                        "League": "Mexican League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2268,7 +2343,8 @@
                     {
                         "Team": "Generales de Durango",
                         "Class": "Independent",
-                        "League": "Mexican League"
+                        "League": "Mexican League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2288,7 +2364,8 @@
                     {
                         "Team": "Mariachis de Guadalajara",
                         "Class": "Independent",
-                        "League": "Mexican League"
+                        "League": "Mexican League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2308,7 +2385,8 @@
                     {
                         "Team": "Rieleros de Aguascalientes",
                         "Class": "Independent",
-                        "League": "Mexican League"
+                        "League": "Mexican League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2328,7 +2406,8 @@
                     {
                         "Team": "Saraperos de Saltillo",
                         "Class": "Independent",
-                        "League": "Mexican League"
+                        "League": "Mexican League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2348,7 +2427,8 @@
                     {
                         "Team": "Toros de Tijuana",
                         "Class": "Independent",
-                        "League": "Mexican League"
+                        "League": "Mexican League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2368,7 +2448,8 @@
                     {
                         "Team": "Diablos Rojos del México",
                         "Class": "Independent",
-                        "League": "Mexican League"
+                        "League": "Mexican League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2388,7 +2469,8 @@
                     {
                         "Team": "El Águila de Veracruz",
                         "Class": "Independent",
-                        "League": "Mexican League"
+                        "League": "Mexican League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2408,7 +2490,8 @@
                     {
                         "Team": "Guerreros de Oaxaca",
                         "Class": "Independent",
-                        "League": "Mexican League"
+                        "League": "Mexican League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2428,7 +2511,8 @@
                     {
                         "Team": "Leones de Yucatán",
                         "Class": "Independent",
-                        "League": "Mexican League"
+                        "League": "Mexican League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2448,7 +2532,8 @@
                     {
                         "Team": "Olmecas de Tabasco",
                         "Class": "Independent",
-                        "League": "Mexican League"
+                        "League": "Mexican League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2468,7 +2553,8 @@
                     {
                         "Team": "Pericos de Puebla",
                         "Class": "Independent",
-                        "League": "Mexican League"
+                        "League": "Mexican League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2488,7 +2574,8 @@
                     {
                         "Team": "Piratas de Campeche",
                         "Class": "Independent",
-                        "League": "Mexican League"
+                        "League": "Mexican League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2508,7 +2595,8 @@
                     {
                         "Team": "Tigres de Quintana Roo",
                         "Class": "Independent",
-                        "League": "Mexican League"
+                        "League": "Mexican League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2528,7 +2616,8 @@
                     {
                         "Team": "Binghamton Rumble Ponies",
                         "Class": "Double-A",
-                        "League": "Eastern League"
+                        "League": "Eastern League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2548,7 +2637,8 @@
                     {
                         "Team": "Hartford Yard Goats",
                         "Class": "Double-A",
-                        "League": "Eastern League"
+                        "League": "Eastern League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2568,7 +2658,8 @@
                     {
                         "Team": "New Hampshire Fisher Cats",
                         "Class": "Double-A",
-                        "League": "Eastern League"
+                        "League": "Eastern League",
+                        "AVGSalary": null
                     },
                     {
                         "Team": "Hartford Hawks",
@@ -2598,7 +2689,8 @@
                     {
                         "Team": "Portland Sea Dogs",
                         "Class": "Double-A",
-                        "League": "Eastern League"
+                        "League": "Eastern League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2618,7 +2710,8 @@
                     {
                         "Team": "Reading Fightin Phils",
                         "Class": "Double-A",
-                        "League": "Eastern League"
+                        "League": "Eastern League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2638,7 +2731,8 @@
                     {
                         "Team": "Somerset Patriots",
                         "Class": "Double-A",
-                        "League": "Eastern League"
+                        "League": "Eastern League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2658,7 +2752,8 @@
                     {
                         "Team": "Akron RubberDucks",
                         "Class": "Double-A",
-                        "League": "Eastern League"
+                        "League": "Eastern League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2678,7 +2773,8 @@
                     {
                         "Team": "Altoona Curve",
                         "Class": "Double-A",
-                        "League": "Eastern League"
+                        "League": "Eastern League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2698,7 +2794,8 @@
                     {
                         "Team": "Bowie Baysox",
                         "Class": "Double-A",
-                        "League": "Eastern League"
+                        "League": "Eastern League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2718,7 +2815,8 @@
                     {
                         "Team": "Erie SeaWolves",
                         "Class": "Double-A",
-                        "League": "Eastern League"
+                        "League": "Eastern League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2738,7 +2836,8 @@
                     {
                         "Team": "Harrisburg Senators",
                         "Class": "Double-A",
-                        "League": "Eastern League"
+                        "League": "Eastern League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2758,7 +2857,8 @@
                     {
                         "Team": "Richmond Flying Squirrels",
                         "Class": "Double-A",
-                        "League": "Eastern League"
+                        "League": "Eastern League",
+                        "AVGSalary": null
                     },
                     {
                         "Team": "VCU Rams",
@@ -2783,7 +2883,8 @@
                     {
                         "Team": "Birmingham Barons",
                         "Class": "Double-A",
-                        "League": "Southern League"
+                        "League": "Southern League",
+                        "AVGSalary": null
                     },
                     {
                         "Team": "UAB Blazers",
@@ -2808,7 +2909,8 @@
                     {
                         "Team": "Chattanooga Lookouts",
                         "Class": "Double-A",
-                        "League": "Southern League"
+                        "League": "Southern League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2828,7 +2930,8 @@
                     {
                         "Team": "Rocket City Trash Pandas",
                         "Class": "Double-A",
-                        "League": "Southern League"
+                        "League": "Southern League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2848,7 +2951,8 @@
                     {
                         "Team": "Tennessee Smokies",
                         "Class": "Double-A",
-                        "League": "Southern League"
+                        "League": "Southern League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2868,7 +2972,8 @@
                     {
                         "Team": "Biloxi Shuckers",
                         "Class": "Double-A",
-                        "League": "Southern League"
+                        "League": "Southern League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2888,7 +2993,8 @@
                     {
                         "Team": "Mississippi Braves",
                         "Class": "Double-A",
-                        "League": "Southern League"
+                        "League": "Southern League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2908,7 +3014,8 @@
                     {
                         "Team": "Montgomery Biscuits",
                         "Class": "Double-A",
-                        "League": "Southern League"
+                        "League": "Southern League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2928,7 +3035,8 @@
                     {
                         "Team": "Pensacola Blue Wahoos",
                         "Class": "Double-A",
-                        "League": "Southern League"
+                        "League": "Southern League",
+                        "AVGSalary": null
                     },
                     {
                         "Team": "West Florida Argonauts",
@@ -2953,7 +3061,8 @@
                     {
                         "Team": "Arkansas Travelers",
                         "Class": "Double-A",
-                        "League": "Texas League"
+                        "League": "Texas League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2973,7 +3082,8 @@
                     {
                         "Team": "Northwest Arkansas Naturals",
                         "Class": "Double-A",
-                        "League": "Texas League"
+                        "League": "Texas League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -2993,7 +3103,8 @@
                     {
                         "Team": "Springfield Cardinals",
                         "Class": "Double-A",
-                        "League": "Texas League"
+                        "League": "Texas League",
+                        "AVGSalary": null
                     },
                     {
                         "Team": "Missouri State Bears",
@@ -3018,7 +3129,8 @@
                     {
                         "Team": "Tulsa Drillers",
                         "Class": "Double-A",
-                        "League": "Texas League"
+                        "League": "Texas League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -3038,7 +3150,8 @@
                     {
                         "Team": "Wichita Wind Surge",
                         "Class": "Double-A",
-                        "League": "Texas League"
+                        "League": "Texas League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -3058,7 +3171,8 @@
                     {
                         "Team": "Amarillo Sod Poodles",
                         "Class": "Double-A",
-                        "League": "Texas League"
+                        "League": "Texas League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -3078,7 +3192,8 @@
                     {
                         "Team": "Corpus Christi Hooks",
                         "Class": "Double-A",
-                        "League": "Texas League"
+                        "League": "Texas League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -3098,7 +3213,8 @@
                     {
                         "Team": "Frisco RoughRiders",
                         "Class": "Double-A",
-                        "League": "Texas League"
+                        "League": "Texas League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -3118,7 +3234,8 @@
                     {
                         "Team": "Midland RockHounds",
                         "Class": "Double-A",
-                        "League": "Texas League"
+                        "League": "Texas League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -3138,7 +3255,8 @@
                     {
                         "Team": "San Antonio Missions",
                         "Class": "Double-A",
-                        "League": "Texas League"
+                        "League": "Texas League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -3158,7 +3276,8 @@
                     {
                         "Team": "Eugene Emeralds",
                         "Class": "High-A",
-                        "League": "Northwest League"
+                        "League": "Northwest League",
+                        "AVGSalary": null
                     },
                     {
                         "Team": "Oregon Ducks",
@@ -3183,7 +3302,8 @@
                     {
                         "Team": "Everett AquaSox",
                         "Class": "High-A",
-                        "League": "Northwest League"
+                        "League": "Northwest League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -3203,7 +3323,8 @@
                     {
                         "Team": "Hillsboro Hops",
                         "Class": "High-A",
-                        "League": "Northwest League"
+                        "League": "Northwest League",
+                        "AVGSalary": null
                     },
                     {
                         "Team": "Vancouver Canadians",
@@ -3228,7 +3349,8 @@
                     {
                         "Team": "Vancouver Canadians",
                         "Class": "High-A",
-                        "League": "Northwest League"
+                        "League": "Northwest League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -3248,7 +3370,8 @@
                     {
                         "Team": "Spokane Indians",
                         "Class": "High-A",
-                        "League": "Northwest League"
+                        "League": "Northwest League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -3268,7 +3391,8 @@
                     {
                         "Team": "Tri-City Dust Devils",
                         "Class": "High-A",
-                        "League": "Northwest League"
+                        "League": "Northwest League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -3288,7 +3412,8 @@
                     {
                         "Team": "Dayton Dragons",
                         "Class": "High-A",
-                        "League": "Midwest League"
+                        "League": "Midwest League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -3308,7 +3433,8 @@
                     {
                         "Team": "Fort Wayne TinCaps",
                         "Class": "High-A",
-                        "League": "Midwest League"
+                        "League": "Midwest League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -3328,7 +3454,8 @@
                     {
                         "Team": "Great Lakes Loons",
                         "Class": "High-A",
-                        "League": "Midwest League"
+                        "League": "Midwest League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -3348,7 +3475,8 @@
                     {
                         "Team": "Lake County Captains",
                         "Class": "High-A",
-                        "League": "Midwest League"
+                        "League": "Midwest League",
+                        "AVGSalary": null
                     },
                     {
                         "Team": "Lake Erie Storm",
@@ -3373,7 +3501,8 @@
                     {
                         "Team": "Lansing Lugnuts",
                         "Class": "High-A",
-                        "League": "Midwest League"
+                        "League": "Midwest League",
+                        "AVGSalary": null
                     },
                     {
                         "Team": "Michigan State Spartans",
@@ -3398,7 +3527,8 @@
                     {
                         "Team": "West Michigan Whitecaps",
                         "Class": "High-A",
-                        "League": "Midwest League"
+                        "League": "Midwest League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -3418,7 +3548,8 @@
                     {
                         "Team": "Beloit Snappers",
                         "Class": "High-A",
-                        "League": "Midwest League"
+                        "League": "Midwest League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -3452,7 +3583,8 @@
                     {
                         "Team": "Cedar Rapids Kernels",
                         "Class": "High-A",
-                        "League": "Midwest League"
+                        "League": "Midwest League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -3472,7 +3604,8 @@
                     {
                         "Team": "Peoria Chiefs",
                         "Class": "High-A",
-                        "League": "Midwest League"
+                        "League": "Midwest League",
+                        "AVGSalary": null
                     },
                     {
                         "Team": "Bradley Braves",
@@ -3497,7 +3630,8 @@
                     {
                         "Team": "Quad Cities River Bandits",
                         "Class": "High-A",
-                        "League": "Midwest League"
+                        "League": "Midwest League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -3517,7 +3651,8 @@
                     {
                         "Team": "South Bend Cubs",
                         "Class": "High-A",
-                        "League": "Midwest League"
+                        "League": "Midwest League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -3537,7 +3672,8 @@
                     {
                         "Team": "Wisconsin Timber Rattlers",
                         "Class": "High-A",
-                        "League": "Midwest League"
+                        "League": "Midwest League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -3557,7 +3693,8 @@
                     {
                         "Team": "Aberdeen IronBirds",
                         "Class": "High-A",
-                        "League": "South Atlantic League"
+                        "League": "South Atlantic League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -3577,7 +3714,8 @@
                     {
                         "Team": "Brooklyn Cyclones",
                         "Class": "High-A",
-                        "League": "South Atlantic League"
+                        "League": "South Atlantic League",
+                        "AVGSalary": null
                     },
                     {
                         "Team": "NYU Violets",
@@ -3602,7 +3740,8 @@
                     {
                         "Team": "Hudson Valley Renegades",
                         "Class": "High-A",
-                        "League": "South Atlantic League"
+                        "League": "South Atlantic League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -3622,7 +3761,8 @@
                     {
                         "Team": "Jersey Shore BlueClaws",
                         "Class": "High-A",
-                        "League": "South Atlantic League"
+                        "League": "South Atlantic League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -3642,7 +3782,8 @@
                     {
                         "Team": "Wilmington Blue Rocks",
                         "Class": "High-A",
-                        "League": "South Atlantic League"
+                        "League": "South Atlantic League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -3662,7 +3803,8 @@
                     {
                         "Team": "Asheville Tourists",
                         "Class": "High-A",
-                        "League": "South Atlantic League"
+                        "League": "South Atlantic League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -3682,7 +3824,8 @@
                     {
                         "Team": "Bowling Green Hot Rods",
                         "Class": "High-A",
-                        "League": "South Atlantic League"
+                        "League": "South Atlantic League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -3702,7 +3845,8 @@
                     {
                         "Team": "Greensboro Grasshoppers",
                         "Class": "High-A",
-                        "League": "South Atlantic League"
+                        "League": "South Atlantic League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -3722,7 +3866,8 @@
                     {
                         "Team": "Greenville Drive",
                         "Class": "High-A",
-                        "League": "South Atlantic League"
+                        "League": "South Atlantic League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -3742,7 +3887,8 @@
                     {
                         "Team": "Hickory Crawdads",
                         "Class": "High-A",
-                        "League": "South Atlantic League"
+                        "League": "South Atlantic League",
+                        "AVGSalary": null
                     },
                     {
                         "Team": "Catawba Valley Stars",
@@ -3767,7 +3913,8 @@
                     {
                         "Team": "Rome Braves",
                         "Class": "High-A",
-                        "League": "South Atlantic League"
+                        "League": "South Atlantic League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -3787,7 +3934,8 @@
                     {
                         "Team": "Winston-Salem Dash",
                         "Class": "High-A",
-                        "League": "South Atlantic League"
+                        "League": "South Atlantic League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -3807,7 +3955,8 @@
                     {
                         "Team": "Fresno Grizzlies",
                         "Class": "Low-A",
-                        "League": "California League"
+                        "League": "California League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -3827,7 +3976,8 @@
                     {
                         "Team": "Modesto Nuts",
                         "Class": "Low-A",
-                        "League": "California League"
+                        "League": "California League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -3847,7 +3997,8 @@
                     {
                         "Team": "San Jose Giants",
                         "Class": "Low-A",
-                        "League": "California League"
+                        "League": "California League",
+                        "AVGSalary": null
                     },
                     {
                         "Team": "San Jose Spartans",
@@ -3872,7 +4023,8 @@
                     {
                         "Team": "Stockton Ports",
                         "Class": "Low-A",
-                        "League": "California League"
+                        "League": "California League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -3892,7 +4044,8 @@
                     {
                         "Team": "Inland Empire 66ers",
                         "Class": "Low-A",
-                        "League": "California League"
+                        "League": "California League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -3912,7 +4065,8 @@
                     {
                         "Team": "Lake Elsinore Storm",
                         "Class": "Low-A",
-                        "League": "California League"
+                        "League": "California League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -3932,7 +4086,8 @@
                     {
                         "Team": "Rancho Cucamonga Quakes",
                         "Class": "Low-A",
-                        "League": "California League"
+                        "League": "California League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -3952,7 +4107,8 @@
                     {
                         "Team": "Visalia Rawhide",
                         "Class": "Low-A",
-                        "League": "California League"
+                        "League": "California League",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -3972,7 +4128,8 @@
                     {
                         "Team": "Delmarva Shorebirds",
                         "Class": "Low-A",
-                        "League": "Low-A East"
+                        "League": "Low-A East",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -3992,7 +4149,8 @@
                     {
                         "Team": "Fredericksburg Nationals",
                         "Class": "Low-A",
-                        "League": "Low-A East"
+                        "League": "Low-A East",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -4012,7 +4170,8 @@
                     {
                         "Team": "Lynchburg Hillcats",
                         "Class": "Low-A",
-                        "League": "Low-A East"
+                        "League": "Low-A East",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -4032,7 +4191,8 @@
                     {
                         "Team": "Salem Red Sox",
                         "Class": "Low-A",
-                        "League": "Low-A East"
+                        "League": "Low-A East",
+                        "AVGSalary": null
                     },
                     {
                         "Team": "Roanoke Maroons",
@@ -4057,7 +4217,8 @@
                     {
                         "Team": "Carolina Mudcats",
                         "Class": "Low-A",
-                        "League": "Low-A East"
+                        "League": "Low-A East",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -4077,7 +4238,8 @@
                     {
                         "Team": "Down East Wood Ducks",
                         "Class": "Low-A",
-                        "League": "Low-A East"
+                        "League": "Low-A East",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -4097,7 +4259,8 @@
                     {
                         "Team": "Fayetteville Woodpeckers",
                         "Class": "Low-A",
-                        "League": "Low-A East"
+                        "League": "Low-A East",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -4117,7 +4280,8 @@
                     {
                         "Team": "Kannapolis Cannon Ballers",
                         "Class": "Low-A",
-                        "League": "Low-A East"
+                        "League": "Low-A East",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -4137,7 +4301,8 @@
                     {
                         "Team": "Augusta GreenJackets",
                         "Class": "Low-A",
-                        "League": "Low-A East"
+                        "League": "Low-A East",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -4157,7 +4322,8 @@
                     {
                         "Team": "Charleston RiverDogs",
                         "Class": "Low-A",
-                        "League": "Low-A East"
+                        "League": "Low-A East",
+                        "AVGSalary": null
                     },
                     {
                         "Team": "The Citadel Bulldogs",
@@ -4182,7 +4348,8 @@
                     {
                         "Team": "Columbia Fireflies",
                         "Class": "Low-A",
-                        "League": "Low-A East"
+                        "League": "Low-A East",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -4202,7 +4369,8 @@
                     {
                         "Team": "Myrtle Beach Pelicans",
                         "Class": "Low-A",
-                        "League": "Low-A East"
+                        "League": "Low-A East",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -4222,7 +4390,8 @@
                     {
                         "Team": "Bluefield Ridge Runners",
                         "Class": "Collegiate Summer Baseball",
-                        "League": "Appalachian"
+                        "League": "Appalachian",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -4242,7 +4411,8 @@
                     {
                         "Team": "Burlington Sock Puppets",
                         "Class": "Collegiate Summer Baseball",
-                        "League": "Appalachian"
+                        "League": "Appalachian",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -4262,7 +4432,8 @@
                     {
                         "Team": "Danville Otterbots",
                         "Class": "Collegiate Summer Baseball",
-                        "League": "Appalachian"
+                        "League": "Appalachian",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -4282,7 +4453,8 @@
                     {
                         "Team": "Princeton WhistlePigs",
                         "Class": "Collegiate Summer Baseball",
-                        "League": "Appalachian"
+                        "League": "Appalachian",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -4302,7 +4474,8 @@
                     {
                         "Team": "Pulaski River Turtles",
                         "Class": "Collegiate Summer Baseball",
-                        "League": "Appalachian"
+                        "League": "Appalachian",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -4322,7 +4495,8 @@
                     {
                         "Team": "Greenville Flyboys",
                         "Class": "Collegiate Summer Baseball",
-                        "League": "Appalachian"
+                        "League": "Appalachian",
+                        "AVGSalary": null
                     },
                     {
                         "Team": "Tusculum University Pioneers",
@@ -4347,7 +4521,8 @@
                     {
                         "Team": "Kingsport Axmen",
                         "Class": "Collegiate Summer Baseball",
-                        "League": "Appalachian"
+                        "League": "Appalachian",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -4367,7 +4542,8 @@
                     {
                         "Team": "Billings Mustangs",
                         "Class": "Independent",
-                        "League": "Pioneer"
+                        "League": "Pioneer",
+                        "AVGSalary": null
                     },
                     {
                         "Team": "Montana State University Billings Yellowjackets",
@@ -4392,7 +4568,8 @@
                     {
                         "Team": "Great Falls Voyagers",
                         "Class": "Independent",
-                        "League": "Pioneer"
+                        "League": "Pioneer",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -4412,7 +4589,8 @@
                     {
                         "Team": "Idaho Falls Chukars",
                         "Class": "Independent",
-                        "League": "Pioneer"
+                        "League": "Pioneer",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -4432,7 +4610,8 @@
                     {
                         "Team": "Missoula PaddleHeads",
                         "Class": "Independent",
-                        "League": "Pioneer"
+                        "League": "Pioneer",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -4452,7 +4631,8 @@
                     {
                         "Team": "Boise Hawks",
                         "Class": "Independent",
-                        "League": "Pioneer"
+                        "League": "Pioneer",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -4472,7 +4652,8 @@
                     {
                         "Team": "Grand Junction Rockies",
                         "Class": "Independent",
-                        "League": "Pioneer"
+                        "League": "Pioneer",
+                        "AVGSalary": null
                     },
                     {
                         "Team": "Colorado Mesa Mavericks",
@@ -4497,7 +4678,8 @@
                     {
                         "Team": "Ogden Raptors",
                         "Class": "Independent",
-                        "League": "Pioneer"
+                        "League": "Pioneer",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -4517,7 +4699,8 @@
                     {
                         "Team": "Rocky Mountain Vibes",
                         "Class": "Independent",
-                        "League": "Pioneer"
+                        "League": "Pioneer",
+                        "AVGSalary": null
                     }
                 ]
             }
@@ -4537,7 +4720,8 @@
                     {
                         "Team": "Northern Colorado Owlz",
                         "Class": "Independent",
-                        "League": "Pioneer"
+                        "League": "Pioneer",
+                        "AVGSalary": null
                     }
                 ]
             }
