@@ -61,20 +61,58 @@
                 <h3>The Binning Process</h3>
                 <br>
                 <p>
-                    Here we will talk about the binning process
+                    We decided to try a different type of model to see if that would give us better results. To start us off on this new path we 
+                    decided to bin the salaries into ranges. We thought this would be the model since it wouldn’t be trying to predict an exact 
+                    amount anymore. But how many bins should we use?
                 </p>
-                <br>
-                <h3>KMeans and K-Nearest Neighbor</h3>
                 <br>
                 <p>
-                    Here we will disscuss the k models
+                    We started by looking at our range of salary trying to break that into equal chunks. In doing so we had nine bins. One thing 
+                    we noticed was that the lower three bins were significantly larger than the last six. We decided to combine the last six bins 
+                    into one so each bin had values in the thousands.  From there we added a column that would be the bin code. For example, if 
+                    you made less than $1 million your salary code was a zero.
                 </p>
                 <br>
-                <h3>Random Forrest, Extra Trees and Support Vector Machine</h3>
+                <table class="table table-boardered table-hover">
+                    <thread>
+                        <tr>
+                            <th scope="col">Salary Bin</th>
+                            <th scope="col">Amount of Players in Bin</th>
+                            <th scope="col">Binning Code</th>
+                        </tr>
+                    </thread>
+                    <tbody>
+                        <tr>
+                            <td scope="row">Less than $1 million</td>
+                            <td scope="row">7437</td>
+                            <td scope="row">0</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">$1 to $5 million</td>
+                            <td scope="row">5172</td>
+                            <td scope="row">1</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">$5 to $10 million</td>
+                            <td scope="row">1248</td>
+                            <td scope="row">2</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">More than $10 million</td>
+                            <td scope="row">1156</td>
+                            <td scope="row">3</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <h3>A Slew of Classifiers Couldn't Help Us</h3>
                 <br>
                 <p>
-                    Here we will talk about the categories models
+                    Now we have a classification data problem, so our algorithms will be classifiers, not regressors! 
+                    We tried KMeans, KNN, RandomForest, ExtraTrees, and Support Vector Machine(SVM). Upshot: no classifier could achieve > 50% accuracy.
+                    Again we were disappointed with the results … 
                 </p>
+                <br>
             </div>
         </div>
     </div>
