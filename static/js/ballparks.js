@@ -57,7 +57,7 @@ function createFeatures(data){
             color = markerColor(feature.properties.Teams[t].AVGSalary);
             league=feature.properties.Teams[t].League
             if(league=="Major League Baseball"){
-                salary = new Intl.NumberFormat('en', { style: 'currency', currency: 'USD' }).format(feature.properties.Teams[t].AVGSalary);
+                salary = new Intl.NumberFormat('en', { style: 'currency', currency: 'USD',maximumFractionDigits: 0,minimumFractionDigits: 0 }).format(feature.properties.Teams[t].AVGSalary);
                 L.circle(
                     [feature.geometry.coordinates[1],feature.geometry.coordinates[0]], 
                 {
