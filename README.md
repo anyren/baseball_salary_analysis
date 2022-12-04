@@ -29,7 +29,12 @@ We wanted to research if you could predict what a baseball hitter's salary was b
 
 
 ### Analyzing the outcomes of the model(s)
-* graphs
+* graphs:
+ - Adjusted Salaries by Players and Teams
+ - Count of Players by Team
+ - Average Adjusted Salary (1985-2016) by Team
+ - Total Adjusted Salaries by League, 1985 - 2016
+
 
 ## Displaying the results on a webpage
 * Create necessary HTML/JS files
