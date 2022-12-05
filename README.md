@@ -1,19 +1,15 @@
 # <img align="left" src="static/images/baseball.png" alt="baseball" width="35"/> &nbsp; Baseball Salary Analysis
-
-Project 4 for UMN Data Boot Camp - Machine Learning Research Project
-
 # Overview
 We set out to see if we could predict what a baseball hitter's salary was based on their statistics and if there were certain statistics that were better predictors of pay. After analyzing the data and running various machine learning algorithms, we collected our findings and [published them here.](https://anyren.github.io/baseball_salary_analysis/)
 
-# update this image!
-<img  src="static/images/site.png" alt="baseball" width="1000"/>
-
-## Contributers (Group 6)
+### Contributers (Group 6)
 * William Vann
 * Sarah Stoffel
 * Ilia Phiranishvili
 * Amanda Nyren
-  
+
+# update this image!
+<img  src="static/images/site.png" alt="baseball" width="1000"/>
 
 # Process
 
