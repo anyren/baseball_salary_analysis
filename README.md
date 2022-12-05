@@ -13,8 +13,49 @@ We set out to see if we could predict what a baseball hitter's salary was based 
 
 # Process
 
+<<<<<<< Updated upstream
 ## Source Data
 * Hitters Salaries (2.12 MB): https://www.kaggle.com/datasets/andrewdecker/hitters-salary-adjusted-to-inflation
+=======
+
+ **Instructions**
+
+## Create Repository
+
+ 1. Create a new repository project in GitHub called *baseball_salary_analysis*. 
+
+ 2. Clone the new repository from GitHub to your computer's desktop then add your notebook files, Data file and your Flask app to the repo.  Remember to commit and push to GitHub regularly.
+
+ ## Clean the data
+
+ 1. Open a GitBash (Window) or Terminal (Mac) to the *baseball_salary_analysis* repo.
+ 
+ 2. Change your python environment to *PythonData38* then launch Jupyter Nootebook by typing 'Jupyter Notebook' and hit Enter.
+ 
+ 3. To clean both datasets using jupyter notebook. For the ETL process, we cleaned data, and dropped columns in the dataset to remove inrrelavent information. 
+
+
+ ## next step
+
+ 1. To 
+ 
+ 2. 
+
+ 4. 
+
+ 5. 
+
+
+
+
+
+
+
+## Major Tasks:
+### Data Cleanup/Processing
+* Figure out what all the shorthand means
+* Determine the teams from abbreviations
+>>>>>>> Stashed changes
 
 ## Data Cleanup/Processing
 Dataset was cleaned to remove duplicates and outliers. We then reduced the data by removing rows for the first three years of each player's career and aggregated the remaining stats. Finally, we took the natural logarithm of the adjusted salaries.
