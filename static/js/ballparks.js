@@ -127,7 +127,7 @@ legend.onAdd = function (map) {
 
     // legend
     div.innerHTML +=
-            '<h4>Average Player Salary</h4>' ;
+            '<h6>Average Player Salary</h6>' ;
     for (var i = 0; i < colorList.length; i++) {
         div.innerHTML +=
             '<i style="background:' + colorList[i] + '"></i> ' +

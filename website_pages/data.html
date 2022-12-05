@@ -98,14 +98,17 @@
                 <p>
                     Correlation matrix analysis revealed that the offensive features were more highly correlated with our dependent variable than any of the other features in the dataset, so we focused our efforts there. GS (games started), BB (walks), RBI (runs batted in), R (runs scored), HR (home runs), and InnOuts (inning outs, a measure of game time played) were the highest-correlated with ADJ Salary.
                 </p>
-                <img src="../static/images/df_correlation_matrix.png" width="1000px"><br>
+                <a href="../static/images/df_correlation_matrix.png" target="_blank"><img src="../static/images/df_correlation_matrix.png" width="800px"></a><br>
+                <sub>click image to enlarge</sub><br><br>
                 Oh no, we have a LOT of collinearity here in our independent variables!<br>
-                <img src="../static/images/df_pairplot.png" width="1000px"><br>
-                Ok, despite all of the collinearity we need to pick a subset of these independent variables, but which ones???
+                <a href="../static/images/df_pairplot.png" target="_blank"><img src="../static/images/df_pairplot.png" width="800px"></a><br>
+                <sub>click image to enlarge</sub><br><br>
+                We looked at scatter plots of each of these variables against ADJ Salary. Nothing but a Jackson Pollock-like spray of dots … no linear relationships here, unfortunately.
+                Despite all of the collinearity we need to pick a subset of these independent variables, but which ones?
                 We picked the top 6 based on highest correlation with our target (ADJ Salary): <b>GS, BB, RBI, R, HR, InnOuts</b>.<br>
-                <img src="../static/images/best_vars_correlation_matrix.png" width="1000px"><br>
-                We looked at scatter plots of each of these variables against ADJ Salary. Nothing but a Jackson Pollock-like spray of dots … no linear relationships here, unfortunately.<br>
-
+                <a href="../static/images/best_vars_correlation_matrix.png" target="_blank"><img src="../static/images/best_vars_correlation_matrix.png" width="800px"></a><br>
+                <sub>click image to enlarge</sub><br><br>
+                
             </div>
         </div>
     </div>
