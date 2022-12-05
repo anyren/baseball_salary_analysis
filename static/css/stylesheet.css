@@ -6,6 +6,9 @@ h3{
     color: midnightblue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+h6{
+    margin: 10px;
+}
 body {
     background-color: whitesmoke;
     font-family: Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
