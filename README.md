@@ -3,7 +3,7 @@ Project 4 for UMN Data Boot Camp - Machine Learning Research Project
 
 # Overview
 
-We wanted to research if you could predict what a baseball hitter's salary was based on their statistics. Is there certain statistics that better predictors of salary? We also wanted to look into if the players team, or league affect their salary
+We wanted to research if you could predict what a baseball hitter's salary was based on their statistics. Is there certain statistics that better predictors of salary? We also wanted to look into if the players team, or league affect their salary. [The website can be found here.](https://anyren.github.io/baseball_salary_analysis/)
 
 
 ## Contributers (Group 6)
