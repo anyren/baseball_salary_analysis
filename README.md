@@ -8,7 +8,7 @@ We set out to see if we could predict what a baseball hitter's salary was based 
 * Ilia Phiranishvili
 * Amanda Nyren
 
-<img  src="static/images/site.png" alt="baseball" width="1000"/>
+<img  src="static/images/site2.png" alt="baseball" width="1000"/>
 
 # Process
 
