@@ -66,8 +66,8 @@
             <p>
                 Once we aggregate the original dataset, we are down to 2468 observations.<br>
                 But now we need to run the whole correlation matrix and feature selection business again …<br>
-                <a href="../static/images/agg_df_correlation_matrix.png" target="_blank"><img src="../static/images/agg_df_correlation_matrix.png" width="800px"></a><br>
-                <sub>click image to enlarge</sub><br><br>
+                <a href="../static/images/agg_df_correlation_matrix.png" target="_blank"><img src="../static/images/agg_df_correlation_matrix.png" class="center" width="800px"></a><br>
+                <center><sub>click image to enlarge</sub><br></center><br>
                 Good news: several of the independent variables are showing higher correlation with the target variable!<br>
                 Bad news: these features of interest are also highly correlated with each other… Hence, we land on: RBI, R, twoB (doubles)
             </p>
@@ -80,7 +80,7 @@
                 GradientBoosterRegressor (GBR) achieved a .59 r2 on the test data! We can explain nearly 60% of the variance.  
                 (Quite a bit improved over our first attempt at multivariate linear regression … we could only explain ~ 26% of the variance.)
                 The others weren't too far behind.
-                <img src="../static/images/LR2_stats_summary.png" width="1000px"><br>
+                <img src="../static/images/LR2_stats_summary.png" class="center" width="1000px"><br>
                 
             </p>
             <p>

@@ -72,7 +72,7 @@
                 We had to assume that the creator of our Kaggle.com dataset applied the inflation adjustment correctly. 
                 We know that his original source for the data was a <a href="https://www.seanlahman.com/baseball-archive/statistics/" target="_blank">well-established baseball database created by Sean Lahman.</a> The dataset had some oddities which required decisions:
                 <ul>
-                    <li>There was a 0 salary (which made taking the logarithm problematic) and one low outlier at $ 19,522.  
+                    <li>There was a 0 salary (which made taking the logarithm problematic) and one low outlier at $19,522.  
                         We deleted both rows!</li>
                     <li>8 duplicate rows were deleted</li>
                 </ul>
@@ -98,16 +98,16 @@
                 <p>
                     Correlation matrix analysis revealed that the offensive features were more highly correlated with our dependent variable than any of the other features in the dataset, so we focused our efforts there. GS (games started), BB (walks), RBI (runs batted in), R (runs scored), HR (home runs), and InnOuts (inning outs, a measure of game time played) were the highest-correlated with ADJ Salary.
                 </p>
-                <a href="../static/images/df_correlation_matrix.png" target="_blank"><img src="../static/images/df_correlation_matrix.png" width="800px"></a><br>
-                <sub>click image to enlarge</sub><br><br>
+                <a href="../static/images/df_correlation_matrix.png" target="_blank"><img src="../static/images/df_correlation_matrix.png" class="center" width="800px"></a><br>
+                <center><sub>click image to enlarge</sub><br></center><br>
                 Oh no, we have a LOT of collinearity here in our independent variables!<br>
-                <a href="../static/images/df_pairplot.png" target="_blank"><img src="../static/images/df_pairplot.png" width="800px"></a><br>
-                <sub>click image to enlarge</sub><br><br>
+                <a href="../static/images/df_pairplot.png" target="_blank"><img src="../static/images/df_pairplot.png" class="center" width="800px"></a><br>
+                <center><sub>click image to enlarge</sub><br></center><br>
                 We looked at scatter plots of each of these variables against ADJ Salary. Nothing but a Jackson Pollock-like spray of dots … no linear relationships here, unfortunately.
                 Despite all of the collinearity we need to pick a subset of these independent variables, but which ones?
                 We picked the top 6 based on highest correlation with our target (ADJ Salary): <b>GS, BB, RBI, R, HR, InnOuts</b>.<br>
-                <a href="../static/images/best_vars_correlation_matrix.png" target="_blank"><img src="../static/images/best_vars_correlation_matrix.png" width="800px"></a><br>
-                <sub>click image to enlarge</sub><br><br>
+                <a href="../static/images/best_vars_correlation_matrix.png" target="_blank"><img src="../static/images/best_vars_correlation_matrix.png" class="center" width="800px"></a><br>
+                <center><sub>click image to enlarge</sub><br></center><br>
                 
             </div>
         </div>

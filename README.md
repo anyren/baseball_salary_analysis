@@ -31,7 +31,6 @@ We ran the following analysis:
     * RandomForest 
     * ExtraTrees 
     * Support Vector Machine(SVM)
-    * Use tsne to visualize the clusters
 
 ## Analysis
 The results of our models and analysis can be found on our [site](https://anyren.github.io/baseball_salary_analysis/).
